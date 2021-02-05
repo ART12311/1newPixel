@@ -153,7 +153,6 @@ export default {
 			}
 		}
 	},
-	"version": 1,
 	"fonts": {
 		"Noto Sans": {
 			"family": "Noto Sans",
@@ -195,5 +194,6 @@ export default {
 				]
 			}
 		}
-	}
+	},
+	"version": 6
 }

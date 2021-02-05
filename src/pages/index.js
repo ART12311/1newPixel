@@ -37,17 +37,12 @@ export default (() => {
 			display="flex"
 			flex-direction="column"
 			color="--dark"
-			padding="60px 0 24px 0"
 		>
 			<Override slot="SectionContent" align-self="center" />
-			<Text
-				font="300 100px --fontFamily-googleMontserrat"
-				letter-spacing="1.0"
-				white-space="pre-line"
-				color="#ffffff"
-				align-self="center"
-			>
-				We're down for schedule maintenance right now.
+			<Text font="300 100px --fontFamily-googleMontserrat" color="#ffffff" align-self="center" white-space="pre-wrap">
+				We're down for schedule
+				<br />
+				maintenance right now.
 			</Text>
 			<Text color="#ffffff" />
 		</Section>
@@ -61,12 +56,12 @@ export default (() => {
 		>
 			<Override slot="SectionContent" align-self="center" />
 			<Text
-				font="normal normal 3 50px/1 --fontFamily-mono"
+				font="normal normal 3 50px/1 --fontFamily-sansVerdana"
 				letter-spacing="1.0"
 				white-space="normal"
 				color="#ffffff"
 				text-align="center"
-				align-self="center"
+				align-self="auto"
 			>
 				Please check back soon.
 			</Text>
@@ -84,13 +79,7 @@ export default (() => {
 			</Link>
 		</Section>
 		<Section background-color="--dark" text-align="center" padding="32px 0" background="#000000">
-			<Link
-				href="mailto:hello@company.com"
-				text-decoration-line="none"
-				variant="--base"
-				color="--grey"
-				hover-color="--primary"
-			>
+			<Link text-decoration-line="none" variant="--base" color="--grey" hover-color="--primary">
 				Copyright 
 © 2021
 			</Link>
