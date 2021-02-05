@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Image, Text } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Section, Override } from "@quarkly/components";
+import { Override, Section } from "@quarkly/components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -21,6 +21,7 @@ export default (() => {
 			font="--base"
 			background="#000000"
 		>
+			<Override slot="SectionContent" />
 			<Image
 				width="347px"
 				height="96px"
@@ -39,7 +40,14 @@ export default (() => {
 			color="--dark"
 		>
 			<Override slot="SectionContent" align-self="center" />
-			<Text font="300 100px --fontFamily-googleMontserrat" color="#ffffff" align-self="center" white-space="pre-wrap">
+			<Text
+				font="300 100px --fontFamily-googleMontserrat"
+				color="#ffffff"
+				align-self="center"
+				white-space="pre-wrap"
+				sm-white-space="normal"
+				sm-font="300 35px --fontFamily-googleMontserrat"
+			>
 				We're down for schedule
 				<br />
 				maintenance right now.
@@ -73,7 +81,7 @@ export default (() => {
 				href="1newpixel@gmail.com"
 				text-decoration-line="none"
 				variant="--base"
-				color="#645151"
+				color="#ffffff"
 				hover-color="#ffffff"
 				link-color="#ffffff"
 				visited-color="#ffffff"
