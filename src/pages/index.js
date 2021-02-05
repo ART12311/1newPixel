@@ -39,7 +39,7 @@ export default (() => {
 			flex-direction="column"
 			color="--dark"
 		>
-			<Override slot="SectionContent" align-self="center" />
+			<Override slot="SectionContent" align-self="auto" />
 			<Text
 				font="300 100px --fontFamily-googleMontserrat"
 				color="#ffffff"
@@ -47,6 +47,7 @@ export default (() => {
 				white-space="pre-wrap"
 				sm-white-space="normal"
 				sm-font="300 35px --fontFamily-googleMontserrat"
+				text-align="center"
 			>
 				We're down for schedule
 				<br />
