@@ -68,12 +68,16 @@ export default (() => {
 			<Text color="#ffffff" />
 		</Section>
 		<Section background-color="--dark" text-align="center" padding="32px 0" background="#000000">
+			<Override slot="SectionContent" color="#ffffff" />
 			<Link
-				href="mailto:hello@company.com"
+				href="1newpixel@gmail.com"
 				text-decoration-line="none"
 				variant="--base"
-				color="--grey"
-				hover-color="--primary"
+				color="#645151"
+				hover-color="#ffffff"
+				link-color="#ffffff"
+				visited-color="#ffffff"
+				active-color="#ffffff"
 			>
 				Contact: 1newpixel@gmail.com
 			</Link>
