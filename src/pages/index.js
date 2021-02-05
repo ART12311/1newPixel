@@ -64,7 +64,7 @@ export default (() => {
 		>
 			<Override slot="SectionContent" align-self="center" />
 			<Text
-				font="normal normal 3 50px/1 --fontFamily-sansVerdana"
+				font="normal normal 2 50px/1 --fontFamily-sansVerdana"
 				letter-spacing="1.0"
 				white-space="normal"
 				color="#ffffff"
